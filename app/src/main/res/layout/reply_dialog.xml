@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Type Your Reply"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/replyEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Type your reply..."
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="15dp"
+        android:background="@drawable/common_edit_text_bg_black"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headingTextView"
+        android:textColorHint="@color/black"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:maxLines="10"
+        android:gravity="start"
+        android:lines="5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/postButton"
+        android:theme="@style/Theme.MaterialComponents"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:shadowColor="@android:color/black"
+        app:strokeColor="@android:color/black"
+        app:strokeWidth="1dp"
+        android:layout_height="wrap_content"
+        android:text="Post Reply"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/replyEditText"
+        app:layout_constraintStart_toStartOf="@+id/replyEditText"
+        app:layout_constraintTop_toBottomOf="@+id/replyEditText"/>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressLayout2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/black"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

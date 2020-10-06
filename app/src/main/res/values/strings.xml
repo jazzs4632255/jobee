@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jobiee</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="balance_currency">$</string>
+    <string name="balance_amount">524.99</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

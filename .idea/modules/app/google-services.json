@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69693960333",
+    "firebase_url": "https://android-virtual-job.firebaseio.com",
+    "project_id": "android-virtual-job",
+    "storage_bucket": "android-virtual-job.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69693960333:android:d457395c06488c15fe32c4",
+        "android_client_info": {
+          "package_name": "com.example.android_vu_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69693960333-769jne77qn80laoamlljut7di5v7k9r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_vu_assignment",
+            "certificate_hash": "3cb0a22c2b5a66610074239398dee30aef7769b5"
+          }
+        },
+        {
+          "client_id": "69693960333-nc2sbe2i51h0299ji6vb8ej395hrin3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS_gNy75VFdC-gcqteV5oraiNwq3lwOmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69693960333-nc2sbe2i51h0299ji6vb8ej395hrin3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
